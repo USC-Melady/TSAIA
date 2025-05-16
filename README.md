@@ -1,6 +1,6 @@
-# TSAIA-Bench
+# TSAIA
 
-This repository contains code and instructions for setting up and running experiments using various LLMs on the **TSAIA-Bench** dataset.
+This repository contains code and instructions for setting up and running experiments using various LLMs on the **TSAIA** dataset.
 
 ![Alt text](assets/task_categorization.png)
 
@@ -9,8 +9,8 @@ This repository contains code and instructions for setting up and running experi
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/llll121/TSAIA-Bench.git
-cd TSAIA-Bench
+git clone https://github.com/USC-Melady/TSAIA.git
+cd TSAIA
 ```
 
 ### 2. Set up Conda Environment
@@ -63,7 +63,7 @@ python3 -u static_query_CodeAct_mc.py --question_path data/multiple_choice.pkl -
 ## 📁 Project Structure
 
 ```
-TSAIA-Bench
+TSAIA
 ├── agent_environment.yml          # Conda environment setup
 ├── data
 │   ├── raw_data                   # Raw data from Hugging Face
